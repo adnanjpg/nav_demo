@@ -1,3 +1,7 @@
+function redirect() {
+    console.log('hmmmmmmm');
+    location.replace('adnan://');
+}
 window.onload = function () {
-    document.getElementById('adnan_ll').click();
+    redirect();
 }
