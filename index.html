@@ -6,10 +6,19 @@
 </head>
 
 <body>
+    <script>
+        function redirect() {
+            console.log('hmmmmmmm');
+            location.replace('adnan://');
+        }
+        window.onload = function () {
+            redirect();
+        }
+    </script>
     <p>if not redirected, click</p>
     <button type="button" id="button_1" onclick="redirect()">here</button>
 
-    <p>try 3</p>
+    <p>try 4</p>
 </body>
 
 </html>
