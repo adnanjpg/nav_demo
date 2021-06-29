@@ -1,1 +1,1 @@
-window.location.href = "adnan://";
+document.getElementById('adnan_ll').click();
